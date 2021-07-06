@@ -1,0 +1,121 @@
+  # Kamstrup power
+  - platform: mqtt
+    name: "Kamstrup activePowerPlus "
+    unit_of_measurement: "watts"
+    state_topic: "basement/hall/sensor/room/activePowerPlus"
+  - platform: mqtt
+    name: "Kamstrup activePowerMinus "
+    unit_of_measurement: "watts"
+    state_topic: "basement/hall/sensor/room/activePowerMinus"
+  - platform: mqtt
+    name: "Kamstrup activePowerPlusL1 "
+    unit_of_measurement: "watts"
+    state_topic: "basement/hall/sensor/room/activePowerPlusL1"
+  - platform: mqtt
+    name: "Kamstrup activePowerMinusL1 "
+    unit_of_measurement: "watts"
+    state_topic: "basement/hall/sensor/room/activePowerMinusL1"
+  - platform: mqtt
+    name: "Kamstrup activePowerPlusL2 "
+    unit_of_measurement: "watts"
+    state_topic: "basement/hall/sensor/room/activePowerPlusL2"
+  - platform: mqtt
+    name: "Kamstrup activePowerMinusL2 "
+    unit_of_measurement: "watts"
+    state_topic: "basement/hall/sensor/room/activePowerMinusL2"
+  - platform: mqtt
+    name: "Kamstrup activePowerPlusL3 "
+    unit_of_measurement: "watts"
+    state_topic: "basement/hall/sensor/room/activePowerPlusL3"
+  - platform: mqtt
+    name: "Kamstrup activePowerMinusL3 "
+    unit_of_measurement: "watts"
+    state_topic: "basement/hall/sensor/room/activePowerMinusL3"
+  - platform: mqtt
+    name: "Kamstrup reactivePowerPlus "
+    unit_of_measurement: "watts"
+    state_topic: "basement/hall/sensor/room/reactivePowerPlus"
+  - platform: mqtt
+    name: "Kamstrup reactivePowerMinus "
+    unit_of_measurement: "watts"
+    state_topic: "basement/hall/sensor/room/reactivePowerMinus"
+  - platform: mqtt
+    name: "Kamstrup powerFactorL1 "
+    unit_of_measurement: "%"
+    state_topic: "basement/hall/sensor/room/powerFactorL1"
+  - platform: mqtt
+    name: "Kamstrup powerFactorL2 "
+    unit_of_measurement: "%"
+    state_topic: "basement/hall/sensor/room/powerFactorL2"
+  - platform: mqtt
+    name: "Kamstrup powerFactorL3 "
+    unit_of_measurement: "%"
+    state_topic: "basement/hall/sensor/room/powerFactorL3"
+  - platform: mqtt
+    name: "Kamstrup powerFactorTotal "
+    unit_of_measurement: "%"
+    state_topic: "basement/hall/sensor/room/powerFactorTotal"
+  - platform: mqtt
+    name: "Kamstrup L1 "
+    unit_of_measurement: "V"
+    state_topic: "basement/hall/sensor/room/voltageL1"
+  - platform: mqtt
+    name: "Kamstrup L2 "
+    unit_of_measurement: "V"
+    state_topic: "basement/hall/sensor/room/voltageL2"
+  - platform: mqtt
+    name: "Kamstrup L3 "
+    unit_of_measurement: "V"
+    state_topic: "basement/hall/sensor/room/voltageL3"
+  - platform: mqtt
+    name: "Kamstrup L1 "
+    unit_of_measurement: "A"
+    state_topic: "basement/hall/sensor/room/currentL1"
+  - platform: mqtt
+    name: "Kamstrup L2 "
+    unit_of_measurement: "A"
+    state_topic: "basement/hall/sensor/room/currentL2"
+  - platform: mqtt
+    name: "Kamstrup L3 "
+    unit_of_measurement: "A"
+    state_topic: "basement/hall/sensor/room/currentL3"
+  - platform: mqtt
+    name: "Kamstrup activeImportKWh "
+    unit_of_measurement: "KWh"
+    state_topic: "basement/hall/sensor/room/energyActiveImportKWh"
+  - platform: mqtt
+    name: "Kamstrup activeExportKWh "
+    unit_of_measurement: "KWh"
+    state_topic: "basement/hall/sensor/room/energyActiveExportKWh"
+  - platform: mqtt
+    name: "Kamstrup activeImportKWhL1 "
+    unit_of_measurement: "KWh"
+    state_topic: "basement/hall/sensor/room/energyActiveImportKWhL1"
+  - platform: mqtt
+    name: "Kamstrup activeExportKWhL1 "
+    unit_of_measurement: "KWh"
+    state_topic: "basement/hall/sensor/room/energyActiveExportKWhL1"
+  - platform: mqtt
+    name: "Kamstrup activeImportKWhL2 "
+    unit_of_measurement: "KWh"
+    state_topic: "basement/hall/sensor/room/energyActiveImportKWhL2"
+  - platform: mqtt
+    name: "Kamstrup activeExportKWhL2 "
+    unit_of_measurement: "KWh"
+    state_topic: "basement/hall/sensor/room/energyActiveExportKWhL2"
+  - platform: mqtt
+    name: "Kamstrup activeImportKWhL3 "
+    unit_of_measurement: "KWh"
+    state_topic: "basement/hall/sensor/room/energyActiveImportKWhL3"
+  - platform: mqtt
+    name: "Kamstrup activeExportKWhL3 "
+    unit_of_measurement: "KWh"
+    state_topic: "basement/hall/sensor/room/energyActiveExportKWhL3"
+  - platform: mqtt
+    name: "Kamstrup reactiveImportKWh "
+    unit_of_measurement: "KWh"
+    state_topic: "basement/hall/sensor/room/energyReactiveImportKWh"
+  - platform: mqtt
+    name: "Kamstrup reactiveExportKWh "
+    unit_of_measurement: "KWh"
+    state_topic: "basement/hall/sensor/room/energyReactiveExportKWh"

@@ -1,0 +1,3 @@
+influxdb
+typing
+paho-mqtt

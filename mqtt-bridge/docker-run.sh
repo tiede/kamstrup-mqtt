@@ -1,0 +1,1 @@
+docker run  --restart=always --log-opt max-size=10m --log-opt max-file=10 --name "mqtt-bridge" -d mqtt-bridge
